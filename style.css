@@ -1,0 +1,42 @@
+section {
+    padding: 60px 5px;
+  }
+
+  body {
+    background-color: #ffc600;
+    overflow-x: hidden;
+  }
+
+  .profile {
+    padding: 9px;
+  }
+
+  /* .principle{
+    display: flex;
+  } */
+
+  .number {
+    border-radius: 10px;
+  }
+
+  .hi {
+    color: rgb(250, 246, 246)
+  }
+
+  .calculate {
+    border: 20px;
+  }
+
+  .myself {
+     color: rgb(70, 72, 100);  
+  }
+
+
+  .form-control.success input {
+	border-color: #2ecc71;
+}
+
+.form-control.error input {
+  border-color: #e74c3c;
+}
+

@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+  <title>APEX BANK</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ 
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark pt-5 pb-4">
+    <div class="container-xxl">
+      <!-- navbar brand / title -->
+      <a class="navbar-brand" href="#intro">
+        <span class="text-secondary fw-bold">
+          <i class="bi bi-piggy-bank-fill"></i>
+          APEX - King of loans
+        </span>
+      </a>
+      <!-- toggle button for mobile nav -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+        aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- navbar links -->
+      <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+        <h5>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#topics"><span class="myself fw-bold">About US</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#calculate"><span class="myself fw-bold">Calculate</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reviews"><span class="myself fw-bold">Reviews</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact"><span class="myself fw-bold">Contact Us</span></a>
+            </li>
+            <li class="nav-item d-md-none">
+              <a class="nav-link" href="#pricing"><span class="myself fw-bold">Pricing</span></a>
+            </li>
+            <li class="nav-item ms-2 d-none d-md-inline">
+              <a class="btn btn-secondary " href="#pricing">Apply Now</a>
+            </li>
+
+          </ul>
+        </h5>
+      </div>
+    </div>
+  </nav>
+
+  <!-- WElcome page -->
+  <section id="intro">
+    <div class="container-lg">
+      <div class="row g-4 justify-content-center align-items-center">
+        <div class="col-md-5 text-center text-md-start">
+          <h1>
+            <div class="display-2 ">APEX BANK </div>
+            <div class="display-6 text-muted">Meet your Dreams Now</div>
+          </h1>
+          <p class="lead my-4 text-muted">#7 in India Private Bank Ranking & Best Bank in Bangalore</p>
+          <a href="" class="btn btn-secondary btn-lg bi bi-piggy-bank-fill"> Apply Now</a>
+        </div>
+
+        <div class="col-md-5 text-center my-4 d-none d-md-block">
+          <img src="image.webp" class="img-fluid" alt="bankPic">
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- pricing -->
+  <section id="pricing" class="bg-light mt-5">
+    <div class="container-lg">
+      <div class="text-center ">
+        <h2>Pricing Plans</h2>
+        <p class="lead text-muted">Choose A Rate of Intrest to Suit you</p>
+      </div>
+
+      <div class="row my-5 align-items-center justify-content-center">
+
+        <div class="col-8 col-lg-4 col-xl-3">
+          <div class="card border-0">
+            <div class="class-body text-center py-5">
+              <h4 class="card-title">3 Years Plan</h4>
+              <p class="lead card-subtitle">Lorem ipsum dolor sit.</p>
+              <p class="display-5 my-4 text-primary fw-bold">13.65%</p>
+              <p class="card-text mx-5 text-muted d-none d-lg block">Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit.</p>
+              <button class="btn btn-outline-primary btn-lg mt-3">Apply Now</button>
+              <br>
+              <button id="button1" class="btn btn-outline-success m-2">preview</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-9 col-lg-4">
+          <div class="card border-primary border-2">
+            <div class="card-header text-center fw-bold text-primary">Most Popular</div>
+            <div class="class-body text-center py-5">
+              <h4 class="card-title display-6 fw-normal">5 Years Plan</h4>
+              <p class="lead card-subtitle">Extra 0.25% off for Women</p>
+              <p class="display-4 my-4 text-primary fw-bold">12.75%</p>
+              <p class="card-text mx-5 text-muted d-none d-lg block">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Dolor eaque dicta unde, incidunt sint at?
+
+              </p>
+              <button class="btn btn-outline-primary btn-lg mt-3">Apply Now</button>
+              <br>
+              <button id="button2" class="btn btn-outline-success m-2">preview</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-8 col-lg-4 col-xl-3">
+          <div class="card border-0">
+            <div class="class-body text-center py-5">
+              <h4 class="card-title">10 Years Plan</h4>
+              <p class="lead card-subtitle">Lorem ipsum dolor sit.</p>
+              <p class="display-5 my-4 text-primary fw-bold">11.65%</p>
+              <p class="card-text mx-5 text-muted d-none d-lg block">Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit.</p>
+              <button class="btn btn-outline-primary btn-lg mt-3">Apply Now</button>
+              <br>
+              <button id="button3" class="btn btn-outline-success m-2">preview</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- calculator -->
+  <section id="calculate" class="m2">
+    <div class="conatiner-lg ">
+      <div class="text-center ">
+        <h2 class="display-5"> Calculate Your Amount</h2>
+        <p class="lead text-muted">Type in the values and Check Yourself </p>
+      </div>
+      <div class="row g-4 justify-content-center align-items-center">
+        <div class="col-md-5 text-center text-md-start">
+
+          <div class="card border-primary border-3 ">
+            <div class="card-content ">
+              <form id="loadform">
+                <h3>
+
+                  <div class="d-flex align-items-center justify-content-center p-3">
+                    <label for="rate" class="form-label  px-2 text-secondary fw-bold">Loan Amount :</label>
+                    <div class="input-group mb-4">
+                      <span class="input-group-text">
+                        <i class="bi bi-cash text-secondary"></i>
+                      </span>
+                      <input type="number" id="loan" class="form-control text-end" step="10000" />
+                    </div>
+                  </div>
+
+                  <div class="d-flex align-items-center justify-content-center p-3">
+                    <label for="rate" class="form-label  px-2 text-secondary fw-bold">Number Of Years :</label>
+                    <div class="input-group mb-4">
+                      <span class="input-group-text">
+                        <i class="bi bi-calendar text-secondary  "></i>
+                      </span>
+                      <input type="number" id="time" class="form-control text-end" step="1">
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-center p-3">
+                    <label for="rate" class="form-label  px-2 text-secondary fw-bold">Rate of Ineterest :</label>
+                    <div class="input-group mb-4">
+                      <span class="input-group-text">
+                        <i class="bi bi-percent text-secondary"></i>
+                      </span>
+                      <input type="number" id="interest" class="form-control text-end" step="0.1">
+                    </div>
+                  </div>
+
+
+
+                  <div class="justify-content-center text-center mb-3 ">
+
+                    <a href="javascript:void()" id="button" class="btn btn-secondary btn-lg bi bi-piggy-bank-fill ">
+                      Calculate Now</a>
+                  </div>
+                </h3>
+
+
+
+
+              </form>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-lg mt-5">
+      <div class="hi row  align-items-center justify-content-center">
+
+        <div class="col-8 col-lg-4 col-xl-3  display-6 bg-primary ">
+          <p id="monthlyPayment" class="">₹</p>
+          <p class="subtitle is-4 fw-bold  p-md-4 ">Monthly </p>
+
+        </div>
+        <div class="col-8 col-lg-4 col-xl-3 display-6 bg-success ">
+          <p id="totalInterest" class="">%</p>
+          <p class="subtitle is-4 fw-bold p-md-4">Total Interest</p>
+
+        </div>
+        <div class="col-8 col-lg-4 col-xl-3 display-6 bg-secondary">
+          <p id="totalPayment" class="">₹</p>
+          <p class="subtitle is-4 fw-bold p-md-4">Total Amount</p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESULTS -->
+  <section class="section">
+  </section>
+
+  <!-- topics at a glance -->
+  <section id="topics">
+    <div class="container-md">
+      <div class="text-center">
+        <h2>Get to Know US</h2>
+        <p class="lead text-muted">A quick glance about our History and Team</p>
+      </div>
+      <div class="row my-5 g-5 justify-content-around align-items-center">
+        <div class="col-6 col-lg-4">
+          <img src="apex.webp" class="img-fluid" alt="ebook">
+        </div>
+        <div class="col-lg-6">
+
+          <!-- accordion -->
+          <div class="accordion" id="chapters">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-1">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1"
+                  aria-expanded="true" aria-controls="chapter-1">
+                  Our Branches
+                </button>
+              </h2>
+              <div id="chapter-1" class="accordion-collapse collapse show" aria-labelledby="heading-1"
+                data-bs-parent="#chapters">
+                <div class="accordion-body">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem
+                    consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi
+                    ipsam nulla sunt alias.</p>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem
+                    consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi
+                    ipsam nulla sunt alias.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#chapter-2" aria-expanded="false" aria-controls="chapter-2">
+                  Apex Teams
+                </button>
+              </h2>
+              <div id="chapter-2" class="accordion-collapse collapse" aria-labelledby="heading-2"
+                data-bs-parent="#chapters">
+                <div class="accordion-body">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem
+                    consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi
+                    ipsam nulla sunt alias.</p>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem
+                    consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi
+                    ipsam nulla sunt alias.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#chapter-3" aria-expanded="false" aria-controls="chapter-1">
+                  Our History
+                </button>
+              </h2>
+              <div id="chapter-3" class="accordion-collapse collapse" aria-labelledby="heading-3"
+                data-bs-parent="#chapters">
+                <div class="accordion-body">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem
+                    consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi
+                    ipsam nulla sunt alias.</p>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem
+                    consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi
+                    ipsam nulla sunt alias.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#chapter-4" aria-expanded="false" aria-controls="chapter-4">
+                  Fundings all Over the world
+                </button>
+              </h2>
+              <div id="chapter-4" class="accordion-collapse collapse" aria-labelledby="heading-4"
+                data-bs-parent="#chapters">
+                <div class="accordion-body">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem
+                    consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi
+                    ipsam nulla sunt alias.</p>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem
+                    consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi
+                    ipsam nulla sunt alias.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-5">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#chapter-5" aria-expanded="false" aria-controls="chapter-5">
+                  Fight Covid
+                </button>
+              </h2>
+              <div id="chapter-5" class="accordion-collapse collapse" aria-labelledby="heading-5"
+                data-bs-parent="#chapters">
+                <div class="accordion-body">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem
+                    consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi
+                    ipsam nulla sunt alias.</p>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem
+                    consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi
+                    ipsam nulla sunt alias.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Review -->
+  <section id="reviews" class="bg-light">
+    <div class="container-lg">
+      <div class="text-center ">
+        <h2><i class="bi bi-stars"></i>Bank reviews</h2>
+        <p class="lead">What our Customers have said about Us...</p>
+      </div>
+
+      <div class="row justify-content-center my-5">
+        <div class="col-lg-8">
+          <div class="list-group">
+            <div class="list-group-item py-3">
+              <div class="pb2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <h5 class="mb-1">The loan application was simple</h5>
+              <p class="mb-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti ut deserunt vel dolorem
+                fugit praesentium repellendus, iusto iure accusamus,
+                ab officiis quos quidem rerum debitis molestias! Vero dolorum quibusdam molestiae.</p>
+              <small>Review by Mario</small>
+            </div>
+            <div class="list-group-item py-3">
+              <div class="pb2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <h5 class="mb-1">Customer Support was really great</h5>
+              <p class="mb-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti ut deserunt vel dolorem
+                fugit praesentium repellendus, iusto iure accusamus,
+                ab officiis quos quidem rerum debitis molestias! Vero dolorum quibusdam molestiae.</p>
+              <small>Review by Mario</small>
+            </div>
+            <div class="list-group-item py-3">
+              <div class="pb2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
+
+              <h5 class="mb-1">I recommend others applyling for loan here</h5>
+              <p class="mb-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti ut deserunt vel dolorem
+                fugit praesentium repellendus, iusto iure accusamus,
+                ab officiis quos quidem rerum debitis molestias! Vero dolorum quibusdam molestiae.</p>
+              <small>Review by Mario</small>
+            </div>
+            <div class="list-group-item py-3">
+              <div class="pb2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
+              <h5 class="mb-1">No hassle found</h5>
+              <p class="mb-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti ut deserunt vel dolorem
+                fugit praesentium repellendus, iusto iure accusamus,
+                ab officiis quos quidem rerum debitis molestias! Vero dolorum quibusdam molestiae.</p>
+              <small>Review by Mario</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us -->
+  <section id="contact">
+    <div class="container-lg">
+
+      <div class="text-center">
+        <h2>Get in Touch</h2>
+        <p class="lead">Questions to ask? Fill out the form to contact Us directly...</p>
+      </div>
+      <div class="row justify-content-center my-5">
+        <div class="col-lg-6">
+
+          <form id="form">
+            <label for="email" class="form-label">Email address:</label>
+            <div class="input-group mb-4">
+             
+              <input type="email" id="email" class="form-control" placeholder="e.g. mario@example.com" />    
+              <div id="errormessage" class="text-danger "></div>
+            </div>
+
+
+            <label for="username" class="form-label">Name:</label>
+            <div class="mb-4 input-group">
+              
+              <input type="text" id="username" class="form-control" placeholder="e.g. Mario" />
+              <div id="errormessage2" class="text-danger "></div>
+
+            </div>
+
+
+            <label for="subject" class="form-label">What is your question about?</label>
+            <div class="mb-4 input-group">
+              <span class="input-group-text">
+                <i class="bi bi-chat-right-dots-fill text-secondary"></i>
+              </span>
+              <select class="form-select" id="subject">
+                <option value="pricing" selected>Pricing query</option>
+                <option value="content">Gurantee query</option>
+                <option value="other">Other query</option>
+              </select>
+            </div>
+            <div class="mb-4 mt-5 form-floating">
+              <textarea class="form-control" id="query" style="height: 140px" placeholder="query"></textarea>
+              <label for="query">Your query...</label>
+            </div>
+            <div class="mb-4 text-center">
+              <button type="submit" class="btn btn-secondary" id="submit-form">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- get updates / modal trigger -->
+  <section class="bg-light">
+    <div class="container">
+      <div class="text-center">
+        <div class="has-background-grey-lighter">
+          <h2>Nandan Hegde</h2>
+          <p class="lead">Web Developer & Enthusiast</p>
+          <h3>
+            <p class="fw-normal ">Hit Me Up</p>
+          </h3>
+
+
+          <h2 class="profiles">
+            <a href="https://www.instagram.com/nandan._.hegde/" class="bi bi-instagram profile" target="_blank"></a>
+            <a href="https://wa.link/yadvlg" class="bi bi-whatsapp" target="_blank"></a>
+            <a href="https://github.com/nandanitis" class="bi bi-github profile" target="_blank"></a>
+            <a href="#" class="bi bi-discord profile"></a>
+          </h2>
+        </div>
+        <!-- <h2>Stay in The Loop</h2>
+        <p class="lead">Get the latest updates of My projects...</p>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+
+
+          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg-modal">
+            Register for Updates
+          </button>
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+ 
+ 
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script src="calculate.js">
+
+</script>
+
+</html>
